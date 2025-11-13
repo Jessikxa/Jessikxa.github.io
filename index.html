@@ -21,26 +21,84 @@
         <nav>
             
             <ul class="nav-Links">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">cv</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="CV Jessica Durkin.pdf" download="" >cv</a></li>
+                <li><a href="#skills">Skills</a></li>
             </ul>
-            <a class= "contactbutton" href="#"><button>Contact</button></a>
+            <a class= "contactbutton" href="#contact"><button>Contact</button></a>
         </nav>
     </header>
 
     <main>
         <div class="head-row">
             <h1>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident veniam sunt ad, minima nobis quam quae. Quia officiis quisquam asperiores animi placeat vero nostrum? Consequatur accusamus iure iusto praesentium totam.
+                Hoi, ik ben jessica. Student game developer bij het ROC Almere.
 
             </h1>
+            <ul>
+                <li><a href="#contact"><button>Contact Me</button></a></li>
+            </ul>
         </div>
+
+        <section class="aboutMeSection" id="aboutMe">
+            <div class="AboutMe">
+                <img src="imgs/Jess2.jpg" alt="">
+                <h2>Ik ben Jessica</h2>
+                <p>Ik ben Jessica, 20 jaar en woon in Almere. Als student Game Developer combineer ik mijn passie voor technologie en creativiteit om werelden tot leven te brengen. Ik hou van het ontwerpen van unieke gameplay-ervaringen en het oplossen van technische uitdagingen met slimme code. Games zijn voor mij meer dan alleen entertainment – ze zijn een vorm van kunst en storytelling. In mijn vrije tijd leer ik continu bij om mijn vaardigheden te verbeteren. Altijd op zoek naar nieuwe ideeën en manieren om spelers te verrassen.</p>
+            </div>
+        </section>
+
+        <section class="ProjectsSection" id="projects">
+            <h1>Projects</h1>
+            <div class="Projects">
+                <img src="imgs/Screenshot 2025-11-13 101158.png" alt="">
+                <img src="imgs/Screenshot 2025-11-13 101318.png" alt="">
+                <img src="imgs/Screenshot 2025-11-13 103026.png" alt="">
+            </div>
+            <div class="description">
+
+            </div>
+        </section>
+        
+        <section class="skills" id="skills">
+            <div class="skillsTxt">
+                 <h1>
+                skills
+                </h1>
+            </div>
+            
+            <div class="hardSkills">
+                <h2>c#</h2>
+                <h2>html</h2>
+                <h2>css</h2>
+            </div>
+            <div class="softSkills">
+                <h2>sociaal</h2>
+                <h2>creatief vermogen</h2>
+                <h2>leergierig</h2>
+                <!-- <h2>doorzettingsvermogen</h2> -->
+                <h2>detail georienteerd</h2>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="form">
+                <form action="https://formspree.io/f/mdkyklwe" method="POST">
+                <h1>Contact Form</h1>
+                <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+                <input type="text" name="Last" placeholder="Last Name" autocomplete="off" required>
+                <input type="email" name="email" placeholder="Email Adress" required>
+                <textarea name="message" placeholder="Enter text" id="" rows="5" cols="60" required></textarea>
+                <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="base-footer">
-
+            <h3>iamjessicadurkin@gmail.com</h3>
         </div>
     </footer>
 </body>
